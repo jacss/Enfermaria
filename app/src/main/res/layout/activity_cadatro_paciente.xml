@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1d3d2"
+    android:orientation="vertical"
+    tools:context=".CadatroPaciente">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        android:text="CADASTRO DE PACIENTE"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:text="NOME" />
+
+    <EditText
+        android:id="@+id/editNome_Id"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@color/backTexto"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:text="LEITO" />
+
+    <EditText
+        android:id="@+id/editLeito_Id"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@color/backTexto"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:text="PRESSÃO ARTERIAL" />
+
+    <EditText
+        android:id="@+id/editPressao_Id"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@color/backTexto"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="BATIMENTO CARDÍACO" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@color/backTexto"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:text="TEMPERATURA CORPORAL" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@color/backTexto"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/botaoSalvar_Id"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="SALVAR" />
+
+    <Button
+        android:id="@+id/botaoVoltar_Id"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:text="VOLTAR" />
+</LinearLayout>

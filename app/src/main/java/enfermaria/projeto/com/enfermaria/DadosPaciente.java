@@ -3,6 +3,8 @@ package enfermaria.projeto.com.enfermaria;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class DadosPaciente extends AppCompatActivity {
@@ -11,6 +13,7 @@ public class DadosPaciente extends AppCompatActivity {
     private TextView textoPressao;
     private TextView textoCardiaco;
     private TextView textoTemCorporal;
+    private Button botaoVoltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,14 @@ public class DadosPaciente extends AppCompatActivity {
         textoPressao= findViewById(R.id.textPressao_Id);
         textoCardiaco =findViewById(R.id.textCardiaco_Id);
         textoTemCorporal = findViewById(R.id.textCorporal_Id);
+        botaoVoltar = findViewById(R.id.botaoVolt_Id);
+
+        botaoVoltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DadosPaciente.this, CadatroPaciente.class));
+            }
+        });
 
         Intent intent = getIntent();
 

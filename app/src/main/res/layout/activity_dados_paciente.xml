@@ -11,10 +11,8 @@
         android:id="@+id/textNome_Id"
         android:layout_width="209dp"
         android:layout_height="25dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/textView2"
         android:layout_alignStart="@+id/textLeito_Id"
-        android:layout_marginStart="-1dp"
-        android:layout_marginTop="30dp"
         android:background="@color/backTexto"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="42dp" />
@@ -23,9 +21,10 @@
         android:id="@+id/textView2"
         android:layout_width="81dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textNome_Id"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="14dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="157dp"
         android:text="PACIENTE:" />
 
     <TextView
@@ -34,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView2"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="193dp"
         android:text="LEITO:" />
 
     <TextView
@@ -51,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView2"
-        android:layout_marginTop="109dp"
+        android:layout_marginTop="230dp"
         android:text="PRES.ARTERIAL:" />
 
     <TextView
@@ -66,9 +65,9 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView2"
-        android:layout_marginTop="146dp"
+        android:layout_marginBottom="235dp"
         android:text="BAT.CARDÍACO:" />
 
     <TextView
@@ -83,9 +82,9 @@
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView2"
-        android:layout_marginTop="180dp"
+        android:layout_marginBottom="187dp"
         android:text="TEMP.CORPORAL:" />
 
     <TextView
@@ -96,5 +95,26 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="128dp"
         android:background="@color/backTexto" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:text="DADOS DO PACIENTE"
+        android:textColor="#2b0202"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/botaoVolt_Id"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:text="VOLTAR" />
 
 </RelativeLayout>

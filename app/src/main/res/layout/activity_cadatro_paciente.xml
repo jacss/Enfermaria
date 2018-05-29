@@ -74,7 +74,7 @@
         android:text="BATIMENTO CARDÍACO" />
 
     <EditText
-        android:id="@+id/editText24"
+        android:id="@+id/editBatimCardiado_Id"
         android:layout_width="267dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"
@@ -90,7 +90,7 @@
         android:text="TEMPERATURA CORPORAL" />
 
     <EditText
-        android:id="@+id/editText25"
+        android:id="@+id/editTempCorporal_Id"
         android:layout_width="267dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="60dp"

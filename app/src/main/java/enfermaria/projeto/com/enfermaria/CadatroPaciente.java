@@ -14,6 +14,9 @@ public class CadatroPaciente extends AppCompatActivity {
     private  Button botaoSalvar;
     private EditText textoNome;
     private EditText textoLeito;
+    private EditText textoPressaoArterial;
+    private EditText textoBatiCardiaco;
+    private  EditText textoTempCorporal;
 
     @SuppressLint("WrongViewCast")
     @Override
@@ -25,6 +28,10 @@ public class CadatroPaciente extends AppCompatActivity {
         botaoSalvar = findViewById(R.id.botaoSalvar_Id);
         textoNome = findViewById(R.id.editNome_Id);
         textoLeito = findViewById(R.id.editLeito_Id);
+        textoPressaoArterial=findViewById(R.id.editPressao_Id);
+        textoBatiCardiaco = findViewById(R.id.editBatimCardiado_Id);
+        textoTempCorporal = findViewById(R.id.editTempCorporal_Id);
+
 
         botaoVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,10 +47,13 @@ public class CadatroPaciente extends AppCompatActivity {
                 Bundle bundle =new Bundle();
 
                bundle.putString("nome", textoNome.getText().toString());
-                bundle.putInt("leito", Integer.parseInt((textoLeito.getText().toString())));
+               bundle.putInt("leito", Integer.parseInt(textoLeito.getText().toString()));
+               bundle.putString("pressao", textoPressaoArterial.getText().toString());
+               bundle.putInt("cardiaco", Integer.parseInt(textoBatiCardiaco.getText().toString()));
+               bundle.putInt("corporal",Integer.parseInt(textoTempCorporal.getText().toString()));
 
-                intent.putExtras(bundle);
-                startActivity(intent);
+               intent.putExtras(bundle);
+               startActivity(intent);
             }
         });
     }

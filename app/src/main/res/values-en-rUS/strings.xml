@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Enfermaria</string>
+    <string name="informacao_cliente">PATIENT INFORMATION REGISTER</string>
+    <string name="voltar">COMO BACK</string>
+    <string name="dados_do_paciente">PATIENT DATA</string>
+    <string name="temp_corporal">BODY TEMPERATURE</string>
+    <string name="bat_card_aco">HEARTBEAT</string>
+    <string name="pres_arterial">BLOOD PRESSURE</string>
+    <string name="leito">BED</string>
+    <string name="paciente">PATIENT</string>
+    <string name="nome">NAME</string>
+    <string name="cadastro_de_paciente">PATIENT REGISTRATION</string>
+    <string name="press_o_arterial">BLOOD PRESSURE</string>
+    <string name="batimento_card_aco">HEARTBEAT</string>
+    <string name="temperatura_corporal">BODY TEMPERATURE</string>
+    <string name="salvar">SAVE</string>
+    <string name="iniciar">START</string>
+</resources>

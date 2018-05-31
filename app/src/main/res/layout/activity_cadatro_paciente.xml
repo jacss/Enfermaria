@@ -14,7 +14,7 @@
         android:layout_height="72dp"
         android:layout_marginLeft="90dp"
         android:layout_marginTop="40dp"
-        android:text="CADASTRO DE PACIENTE"
+        android:text="@string/cadastro_de_paciente"
         android:textColor="#2b0202"
         android:textSize="18sp" />
 
@@ -23,13 +23,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="170dp"
-        android:text="NOME" />
+        android:text="@string/nome" />
 
     <EditText
         android:id="@+id/editNome_Id"
-        android:layout_width="267dp"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:background="@color/backTexto"
         android:ems="10"
         android:inputType="textPersonName" />
@@ -43,9 +43,9 @@
 
     <EditText
         android:id="@+id/editLeito_Id"
-        android:layout_width="267dp"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:background="@color/backTexto"
         android:ems="10"
         android:inputType="textPersonName" />
@@ -55,13 +55,13 @@
         android:layout_width="137dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="130dp"
-        android:text="PRESSÃO ARTERIAL" />
+        android:text="@string/press_o_arterial" />
 
     <EditText
         android:id="@+id/editPressao_Id"
-        android:layout_width="267dp"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:background="@color/backTexto"
         android:ems="10"
         android:inputType="textPersonName" />
@@ -71,13 +71,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="120dp"
-        android:text="BATIMENTO CARDÍACO" />
+        android:text="@string/batimento_card_aco" />
 
     <EditText
         android:id="@+id/editBatimCardiado_Id"
-        android:layout_width="267dp"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:background="@color/backTexto"
         android:ems="10"
         android:inputType="textPersonName" />
@@ -87,30 +87,42 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="105dp"
-        android:text="TEMPERATURA CORPORAL" />
+        android:text="@string/temperatura_corporal" />
 
     <EditText
         android:id="@+id/editTempCorporal_Id"
-        android:layout_width="267dp"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:background="@color/backTexto"
         android:ems="10"
         android:inputType="textPersonName" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <Button
         android:id="@+id/botaoSalvar_Id"
-        style="@android:style/Widget.Material.Light.Button.Inset"
-        android:layout_width="100dp"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="140dp"
-        android:text="SALVAR" />
+        android:layout_marginLeft="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/salvar" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/botaoVoltar_Id"
-        style="@android:style/Widget.Material.Light.Button.Inset"
-        android:layout_width="100dp"
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="140dp"
-        android:text="VOLTAR" />
+        android:layout_marginLeft="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/voltar" />
 </LinearLayout>

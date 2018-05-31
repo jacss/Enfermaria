@@ -25,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="11dp"
         android:layout_marginTop="157dp"
-        android:text="PACIENTE:" />
+        android:text="@string/paciente" />
 
     <TextView
         android:id="@+id/textView3"
@@ -34,7 +34,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="193dp"
-        android:text="LEITO:" />
+        android:text="@string/leito" />
 
     <TextView
         android:id="@+id/textLeito_Id"
@@ -51,7 +51,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginTop="230dp"
-        android:text="PRES.ARTERIAL:" />
+        android:text="@string/pres_arterial" />
 
     <TextView
         android:id="@+id/textPressao_Id"
@@ -68,7 +68,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginBottom="235dp"
-        android:text="BAT.CARDÍACO:" />
+        android:text="@string/bat_card_aco" />
 
     <TextView
         android:id="@+id/textCardiaco_Id"
@@ -85,7 +85,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView2"
         android:layout_marginBottom="187dp"
-        android:text="TEMP.CORPORAL:" />
+        android:text="@string/temp_corporal" />
 
     <TextView
         android:id="@+id/textCorporal_Id"
@@ -103,18 +103,20 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="53dp"
-        android:text="DADOS DO PACIENTE"
+        android:text="@string/dados_do_paciente"
         android:textColor="#2b0202"
         android:textSize="18sp" />
 
     <Button
         android:id="@+id/botaoVolt_Id"
         style="@android:style/Widget.Material.Light.Button.Inset"
-        android:layout_width="100dp"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="113dp"
-        android:text="VOLTAR" />
+        android:layout_marginLeft="40dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/voltar" />
 
 </RelativeLayout>

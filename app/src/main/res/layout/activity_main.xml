@@ -30,12 +30,13 @@
     <Button
         android:id="@+id/botaoIniciar_Id"
         style="@android:style/Widget.Material.Light.Button.Inset"
-        android:layout_width="wrap_content"
+        android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="98dp"
-        android:text="INICIAR"
+        android:background="@color/colorPrimary"
+        android:text="@string/iniciar"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="350dp" />
 </RelativeLayout>

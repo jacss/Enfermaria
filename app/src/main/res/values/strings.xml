@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Enfermaria</string>
     <string name="informacao_cliente">CADASTRO DE INFORMAÇÕES DE PACIENTES</string>
+    <string name="voltar">VOLTAR</string>
+    <string name="dados_do_paciente">DADOS DO PACIENTE</string>
+    <string name="temp_corporal">TEMP.CORPORAL:</string>
+    <string name="bat_card_aco">BAT.CARDÍACO:</string>
+    <string name="pres_arterial">PRES.ARTERIAL:</string>
+    <string name="leito">LEITO:</string>
+    <string name="paciente">PACIENTE:</string>
+    <string name="nome">NOME</string>
+    <string name="cadastro_de_paciente">CADASTRO DE PACIENTE</string>
+    <string name="press_o_arterial">PRESSÃO ARTERIAL</string>
+    <string name="batimento_card_aco">BATIMENTO CARDÍACO</string>
+    <string name="temperatura_corporal">TEMPERATURA CORPORAL</string>
+    <string name="salvar">SALVAR</string>
+    <string name="iniciar">INICIAR</string>
+
 </resources>
